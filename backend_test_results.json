@@ -1,0 +1,500 @@
+{
+  "total_tests": 40,
+  "passed_tests": 40,
+  "failed_tests": 0,
+  "success_rate": 100.0,
+  "duration": 2.195720672607422,
+  "detailed_results": [
+    {
+      "test": "Create Product - Glazed Original Donut",
+      "success": true,
+      "message": "Created donuts product successfully",
+      "details": {
+        "product_id": "b9ffc310-e1b6-4c30-86ba-27d47182ccb8",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.055032"
+    },
+    {
+      "test": "Create Product - Breakfast Taco Supreme",
+      "success": true,
+      "message": "Created tacos product successfully",
+      "details": {
+        "product_id": "30458e29-ac61-4f5e-ae97-a1ee8ef1bed5",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.114425"
+    },
+    {
+      "test": "Create Product - Sausage Kolache",
+      "success": true,
+      "message": "Created kolaches product successfully",
+      "details": {
+        "product_id": "45ad7fad-f3da-4753-a192-380197def0b5",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.170910"
+    },
+    {
+      "test": "Create Product - Butter Croissant",
+      "success": true,
+      "message": "Created croissants product successfully",
+      "details": {
+        "product_id": "7e0ad185-d0b8-41c0-bf91-320c62967e3e",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.224920"
+    },
+    {
+      "test": "Create Product - House Blend Coffee",
+      "success": true,
+      "message": "Created coffee product successfully",
+      "details": {
+        "product_id": "bae0462c-f129-488e-a99e-b31d9e2d0ec2",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.277405"
+    },
+    {
+      "test": "Create Product - Fresh Orange Juice",
+      "success": true,
+      "message": "Created beverages product successfully",
+      "details": {
+        "product_id": "b6c35909-612f-4951-b330-fd28599c0428",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.330973"
+    },
+    {
+      "test": "Get All Products",
+      "success": true,
+      "message": "Retrieved 6 products",
+      "details": {
+        "count": 6,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.382748"
+    },
+    {
+      "test": "Get Products by Category - donuts",
+      "success": true,
+      "message": "Retrieved 1 donuts products",
+      "details": {
+        "count": 1,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.434280"
+    },
+    {
+      "test": "Get Products by Category - tacos",
+      "success": true,
+      "message": "Retrieved 1 tacos products",
+      "details": {
+        "count": 1,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.486776"
+    },
+    {
+      "test": "Get Products by Category - kolaches",
+      "success": true,
+      "message": "Retrieved 1 kolaches products",
+      "details": {
+        "count": 1,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.536778"
+    },
+    {
+      "test": "Get Products by Category - croissants",
+      "success": true,
+      "message": "Retrieved 1 croissants products",
+      "details": {
+        "count": 1,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.585373"
+    },
+    {
+      "test": "Get Products by Category - coffee",
+      "success": true,
+      "message": "Retrieved 1 coffee products",
+      "details": {
+        "count": 1,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.632740"
+    },
+    {
+      "test": "Get Products by Category - beverages",
+      "success": true,
+      "message": "Retrieved 1 beverages products",
+      "details": {
+        "count": 1,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.680342"
+    },
+    {
+      "test": "Get Single Product",
+      "success": true,
+      "message": "Retrieved product: Glazed Original Donut",
+      "details": {
+        "product_id": "b9ffc310-e1b6-4c30-86ba-27d47182ccb8",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.729067"
+    },
+    {
+      "test": "Update Product",
+      "success": true,
+      "message": "Product updated successfully",
+      "details": {
+        "product_id": "b9ffc310-e1b6-4c30-86ba-27d47182ccb8",
+        "new_price": 1.5,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.782064"
+    },
+    {
+      "test": "Get All Inventory",
+      "success": true,
+      "message": "Retrieved 6 inventory items",
+      "details": {
+        "count": 6,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.831015"
+    },
+    {
+      "test": "Get Inventory Item - Glazed Original Donut",
+      "success": true,
+      "message": "Retrieved inventory for Glazed Original Donut",
+      "details": {
+        "product_id": "b9ffc310-e1b6-4c30-86ba-27d47182ccb8",
+        "quantity": 0,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.880287"
+    },
+    {
+      "test": "Update Inventory - Glazed Original Donut",
+      "success": true,
+      "message": "Updated inventory: quantity=50, status=in_stock",
+      "details": {
+        "product_id": "b9ffc310-e1b6-4c30-86ba-27d47182ccb8",
+        "expected_status": "in_stock",
+        "actual_status": "in_stock",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.930741"
+    },
+    {
+      "test": "Get Inventory Item - Breakfast Taco Supreme",
+      "success": true,
+      "message": "Retrieved inventory for Breakfast Taco Supreme",
+      "details": {
+        "product_id": "30458e29-ac61-4f5e-ae97-a1ee8ef1bed5",
+        "quantity": 0,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:31.978387"
+    },
+    {
+      "test": "Update Inventory - Breakfast Taco Supreme",
+      "success": true,
+      "message": "Updated inventory: quantity=5, status=low_stock",
+      "details": {
+        "product_id": "30458e29-ac61-4f5e-ae97-a1ee8ef1bed5",
+        "expected_status": "low_stock",
+        "actual_status": "low_stock",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.032408"
+    },
+    {
+      "test": "Get Inventory Item - Sausage Kolache",
+      "success": true,
+      "message": "Retrieved inventory for Sausage Kolache",
+      "details": {
+        "product_id": "45ad7fad-f3da-4753-a192-380197def0b5",
+        "quantity": 0,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.087605"
+    },
+    {
+      "test": "Update Inventory - Sausage Kolache",
+      "success": true,
+      "message": "Updated inventory: quantity=0, status=out_of_stock",
+      "details": {
+        "product_id": "45ad7fad-f3da-4753-a192-380197def0b5",
+        "expected_status": "out_of_stock",
+        "actual_status": "out_of_stock",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.137065"
+    },
+    {
+      "test": "Get Low Stock Alerts",
+      "success": true,
+      "message": "Retrieved 5 low stock alerts",
+      "details": {
+        "alert_count": 5,
+        "alerts": [
+          {
+            "product_name": "Breakfast Taco Supreme",
+            "product_id": "30458e29-ac61-4f5e-ae97-a1ee8ef1bed5",
+            "current_quantity": 5,
+            "min_threshold": 10,
+            "status": "low_stock"
+          },
+          {
+            "product_name": "Sausage Kolache",
+            "product_id": "45ad7fad-f3da-4753-a192-380197def0b5",
+            "current_quantity": 0,
+            "min_threshold": 10,
+            "status": "out_of_stock"
+          },
+          {
+            "product_name": "Butter Croissant",
+            "product_id": "7e0ad185-d0b8-41c0-bf91-320c62967e3e",
+            "current_quantity": 0,
+            "min_threshold": 10,
+            "status": "out_of_stock"
+          },
+          {
+            "product_name": "House Blend Coffee",
+            "product_id": "bae0462c-f129-488e-a99e-b31d9e2d0ec2",
+            "current_quantity": 0,
+            "min_threshold": 10,
+            "status": "out_of_stock"
+          },
+          {
+            "product_name": "Fresh Orange Juice",
+            "product_id": "b6c35909-612f-4951-b330-fd28599c0428",
+            "current_quantity": 0,
+            "min_threshold": 10,
+            "status": "out_of_stock"
+          }
+        ],
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.189187"
+    },
+    {
+      "test": "Create Employee - Sarah Johnson",
+      "success": true,
+      "message": "Created manager successfully",
+      "details": {
+        "employee_id": "67d39fdf-4d3c-4169-89f5-3e7dc02391a9",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.245672"
+    },
+    {
+      "test": "Create Employee - Mike Rodriguez",
+      "success": true,
+      "message": "Created baker successfully",
+      "details": {
+        "employee_id": "849e3b76-c90a-42a1-bb5f-4c85b8a7fd58",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.300690"
+    },
+    {
+      "test": "Create Employee - Emily Chen",
+      "success": true,
+      "message": "Created cashier successfully",
+      "details": {
+        "employee_id": "0f021029-51cf-46f0-b8f7-dcb649556064",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.349699"
+    },
+    {
+      "test": "Get All Employees",
+      "success": true,
+      "message": "Retrieved 3 employees",
+      "details": {
+        "count": 3,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.400365"
+    },
+    {
+      "test": "Create Customer - John Smith",
+      "success": true,
+      "message": "Created customer successfully",
+      "details": {
+        "customer_id": "1c1f8572-430d-47f9-a2a2-e84ce1e51ab8",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.463628"
+    },
+    {
+      "test": "Create Customer - Maria Garcia",
+      "success": true,
+      "message": "Created customer successfully",
+      "details": {
+        "customer_id": "5c8db5e2-b85f-4a10-8153-d084a902d67a",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.516426"
+    },
+    {
+      "test": "Create Customer - David Wilson",
+      "success": true,
+      "message": "Created customer successfully",
+      "details": {
+        "customer_id": "19bcad2b-3cb4-451c-aaa4-75dea67d3bf6",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.565306"
+    },
+    {
+      "test": "Get All Customers",
+      "success": true,
+      "message": "Retrieved 3 customers",
+      "details": {
+        "count": 3,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.612708"
+    },
+    {
+      "test": "Create Sale #1",
+      "success": true,
+      "message": "Created sale for $12.5 successfully",
+      "details": {
+        "sale_id": "58be7c71-06b5-419c-bb61-211337dbd01f",
+        "total": 12.5,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.675176"
+    },
+    {
+      "test": "Create Sale #2",
+      "success": true,
+      "message": "Created sale for $10.25 successfully",
+      "details": {
+        "sale_id": "1662f8c4-05ec-47d7-87c1-06f35b03daa7",
+        "total": 10.25,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.730559"
+    },
+    {
+      "test": "Get All Sales",
+      "success": true,
+      "message": "Retrieved 2 sales records",
+      "details": {
+        "count": 2,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.777018"
+    },
+    {
+      "test": "Inventory Update After Sale",
+      "success": true,
+      "message": "Inventory updated correctly: 44 remaining",
+      "details": {
+        "product_id": "b9ffc310-e1b6-4c30-86ba-27d47182ccb8",
+        "expected_quantity": 44,
+        "actual_quantity": 44,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.828152"
+    },
+    {
+      "test": "Dashboard Overview",
+      "success": true,
+      "message": "Dashboard overview retrieved with all required fields",
+      "details": {
+        "fields_present": [
+          "today_revenue",
+          "today_orders",
+          "low_stock_alerts",
+          "total_products",
+          "total_customers",
+          "active_employees",
+          "average_order_value"
+        ],
+        "today_revenue": 22.75,
+        "today_orders": 2,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.883165"
+    },
+    {
+      "test": "Daily Analytics",
+      "success": true,
+      "message": "Daily analytics retrieved successfully",
+      "details": {
+        "total_revenue": 22.75,
+        "total_orders": 2,
+        "popular_items_count": 4,
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.933618"
+    },
+    {
+      "test": "Category Analytics",
+      "success": true,
+      "message": "Category analytics retrieved for 4 categories",
+      "details": {
+        "categories": [
+          "donuts",
+          "coffee",
+          "tacos",
+          "beverages"
+        ],
+        "category_data": {
+          "donuts": {
+            "revenue": 7.5,
+            "quantity": 6,
+            "orders": 1
+          },
+          "coffee": {
+            "revenue": 5.0,
+            "quantity": 2,
+            "orders": 1
+          },
+          "tacos": {
+            "revenue": 7.0,
+            "quantity": 2,
+            "orders": 1
+          },
+          "beverages": {
+            "revenue": 3.25,
+            "quantity": 1,
+            "orders": 1
+          }
+        },
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:32.989224"
+    },
+    {
+      "test": "Delete Product - Fresh Orange Juice",
+      "success": true,
+      "message": "Product deleted successfully",
+      "details": {
+        "product_id": "b6c35909-612f-4951-b330-fd28599c0428",
+        "message": "Product deleted successfully",
+        "status_code": 200
+      },
+      "timestamp": "2025-09-19T04:56:33.041788"
+    },
+    {
+      "test": "Verify Product Deletion",
+      "success": true,
+      "message": "Product deletion verified",
+      "details": {
+        "product_id": "b6c35909-612f-4951-b330-fd28599c0428",
+        "status_code": 404
+      },
+      "timestamp": "2025-09-19T04:56:33.089604"
+    }
+  ]
+}
